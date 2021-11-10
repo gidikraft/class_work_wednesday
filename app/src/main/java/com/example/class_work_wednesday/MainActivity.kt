@@ -13,9 +13,15 @@ class MainActivity : AppCompatActivity() {
         val arrayList = ArrayList<Model>()
 
         arrayList.add(Model("Discover"))
-        arrayList.add(Model("Ideal"))
+        arrayList.add(Model("iDEAL"))
         arrayList.add(Model("Maestro"))
         arrayList.add(Model("Visa"))
+        arrayList.add(Model("Diner's club"))
+        arrayList.add(Model("Mastercard"))
+        arrayList.add(Model("American Express"))
+        arrayList.add(Model("Visa"))
+        arrayList.add(Model("payFast"))
+        arrayList.add(Model("Boncontact"))
 
         val myAdapter = MyRecyclerViewAdapter(arrayList)
 
