@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity() {
 
         val myAdapter = MyRecyclerViewAdapter(arrayList)
 
-
+        //instantiates the recyclerView to set the context using this layout manager
         findViewById<RecyclerView>(R.id.recyclerview).layoutManager = LinearLayoutManager(this)
         findViewById<RecyclerView>(R.id.recyclerview).adapter = myAdapter
     }

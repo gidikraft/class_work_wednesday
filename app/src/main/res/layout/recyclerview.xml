@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
-
+    //cardView let's me style the view the way I want
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -14,31 +14,27 @@
         app:layout_constraintStart_toEndOf="@+id/imageCard"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
-
+        //LinearLayout let"s me set me view easily horizontally
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:padding="20dp">
-
+            //The item logo stored in res folder
             <ImageView
                 android:id="@+id/icon"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_group_1793"
                 android:layout_marginEnd="20dp"/>
-
-
+            //my textView that will be the title
             <TextView
                 android:id="@+id/paypal"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Paypal"
+                android:text="@string/paypal"
                 android:textSize="18sp"
                 android:layout_marginTop="5dp"/>
         </LinearLayout>
-
-
     </androidx.cardview.widget.CardView>
-
 </LinearLayout>
