@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">class_work_wednesday</string>
     <string name="paypal">Paypal</string>
+    <string name="cart">Cart</string>
+    <string name="card_icons">card icons</string>
 </resources>
